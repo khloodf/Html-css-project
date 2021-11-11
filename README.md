@@ -1,5 +1,5 @@
 # Html-css-project
-all my project in css and html 
+
 this is the home page 
 <img width="1271" alt="Screen Shot 1443-04-06 at 3 19 05 PM" src="https://user-images.githubusercontent.com/36178234/141296874-b7bc39cc-0fb4-4cd8-a761-57e5e0588e0a.png">
 the store page 
