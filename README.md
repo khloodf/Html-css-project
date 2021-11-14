@@ -1,9 +1,15 @@
 # Html-css-project
 
-this is the home page 
-<img width="1271" alt="Screen Shot 1443-04-06 at 3 19 05 PM" src="https://user-images.githubusercontent.com/36178234/141296874-b7bc39cc-0fb4-4cd8-a761-57e5e0588e0a.png">
-the store page 
-<img width="1280" alt="Screen Shot 1443-04-06 at 3 20 18 PM" src="https://user-images.githubusercontent.com/36178234/141297013-ac4abe00-a7e8-49d7-bfbd-03aaef5157a2.png">
-<img width="1280" alt="Screen Shot 1443-04-06 at 3 20 30 PM" src="https://user-images.githubusercontent.com/36178234/141297041-55cc1f3f-80b4-4a39-89c1-935dd51ef486.png">
+موقع مصمم للنجم طلال مداح رحمة الله عليه 
+the finle result 
+about.html
+<img width="1259" alt="Screen Shot 1443-04-09 at 2 51 34 PM" src="https://user-images.githubusercontent.com/36178234/141679623-4f562920-f725-406b-a005-266fa479f5e4.png">
+index.html 
 
-and last one is about page <img width="1272" alt="Screen Shot 1443-04-06 at 3 21 11 PM" src="https://user-images.githubusercontent.com/36178234/141297138-64bcfb27-0b4f-4361-ad76-861fbf31b184.png">
+
+
+store.html
+<img width="1280" alt="Screen Shot 1443-04-09 at 2 53 01 PM" src="https://user-images.githubusercontent.com/36178234/141679664-5429e091-1cde-4f59-9c05-8c983ee50f7b.png">
+<img width="1217" alt="Screen Shot 1443-04-09 at 3 02 06 PM" src="https://user-images.githubusercontent.com/36178234/141680093-d17490da-c07a-4a85-b35c-06048b5c6d58.png">
+
+<img width="1225" alt="Screen Shot 1443-04-09 at 2 53 34 PM" src="https://user-images.githubusercontent.com/36178234/141679693-2827bf23-2986-453e-b54e-c11f7a205ab2.png">
