@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Tlal Madah about
+    <title> Talal Madah 
     </title>
     <meta name="Descripton" content="Tlal Madah tour">
+    <link rel="stylesheet"  href="style.css"/>
 </head>
 
 <body>
-<header>
-<nav>
+    <header class="main-header">
+        <nav class ="nav main-nav">
 
     <ul>
         <li><a href="index.html" >HOME  </a> </li>
@@ -16,133 +17,127 @@
         <li> <a href="about.html" >ABOUT </a> </li>
     </ul>
 </nav>
-<h1> Tlal Madah </h1>
+<h1 class="band-name band-name-larget">  Talal Madah </h1>
 </header>
-<hr>
+
 <section> 
-<h2>
-    Music
-</h2>
-<div>
-<div>  <h3> Album 1</h3></div>
-<img src="img/mnho.jpg" height="90" width="90">
-<div>
-<span>25$</span>
-<button role="button"> Add the Card </button>
-</div>
-
-</div>
-<div>
-    <div>  <h3> Album 2</h3></div>
-    <img src="img/ahrjatni.jpeg" height="90" width="90">
-    <div>
-    <span>55$</span>
-    <button role="button"> Add the Card </button>
-    </div>
-    
-    </div>
-    <div>
-        <div>  <h3> Album 3</h3></div>
-        <img src="img/saab.jpeg"  height="90" width="90">
-
-        <div>
-        <span>95$</span>
-        <button role="button"> Add the Card </button>
-        </div>
-        
-        </div>
-        <div>
-            <div>  <h3> Album 4</h3></div>
-            <img src="img/sou3at.jpg"  height="90" width="90">
-            <div>
-            <span>28$</span>
-            <button role="button"> Add the Card </button>
+    <h2 class="section-header">MUSIC</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">Album 1</span>
+            <img class="shop-item-image" src="Img/ahrjatni.jpeg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
             </div>
-            
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Album 2</span>
+            <img class="shop-item-image" src="Img/mnho.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$14.99</span>
+                <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
             </div>
-</section>
-
-<section>
-<h2> March </h2>
-<div>
-    <div> <h3> T Shirt </h3></div>
-    <img src="img/tchirt.jpg"height="90" width="90">
-    <div>
-    <span>25.88$</span>
-    <button role="button"> Add the Card </button>
-    </div>
-    
-    </div>
-    <div>
-        <div>  <h3> Tlal Cup</h3></div>
-        <img src="img/tlalcup.jpg"height="90" width="90">
-        <div>
-        <span>25$</span>
-        <button role="button"> Add the Card </button>
         </div>
-        
+        <div class="shop-item">
+            <span class="shop-item-title">Album 3</span>
+            <img class="shop-item-image" src="img/mrt.jpeg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$9.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
         </div>
-</section>
-
-<section>
-<h2> Cart</h2>
-
-<div>
-    <div> 
-  <strong>
-    Item 
-   </strong>
-   &lt;&gt;
-<strong>
-   Price 
-</strong>
-
-&lt;&gt;
-<strong>
-    Quntity 
-</strong>
-<hr>
-
-
+        <div class="shop-item">
+            <span class="shop-item-title">Album 4</span>
+            <img class="shop-item-image" src="Img/saab.jpeg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$19.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
     </div>
-</div>
-<div> 
-    <img src="img/tchirt.jpg" height="50dp" width="50dp">
-    &lt;&gt;
-    <span> T Shirt </span>
-    &lt;&gt;
-    <input type="number"  value="1 ">
-    &lt;&gt;
-    <button role="button" >Remove </button>
-     </div>
-     <hr>
-     <div> 
-        <img src="img/ahrjatni.jpeg" height="50dp" width="50dp">
-        &lt;&gt;
-        <span> Album 2 </span>
-        &lt;&gt;
-        <input type="number"  value="2 ">
-        &lt;&gt;
-        <button role="button" >Remove </button>
-         </div>
-
-         <div>
-             <strong> Total  </strong>
-             <span> 300$ </span>
-         </div>
-         <div>
-             <button role="button">Purchase </button>
-         </div>
 </section>
 
-<footer>
-    <h3>
-       Tlal Madah
 
-    </h3>
-    <img src=img/facebook.png height="30dp" width="30dp">
-    <img src=img/insta.png height="30dp" width="30dp">
-    <img src=img/twitter.png height="30dp" width="30dp">
+<section class="container content-section">
+    <h2 class="section-header">MERCH</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">T-Shirt</span>
+            <img class="shop-item-image" src="Img/tchirt.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$19.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Talal Cup</span>
+            <img class="shop-item-image" src="Img/cup.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$6.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="Img/tchirt.jpg" width="100" height="100">
+                <span class="cart-item-title">T-Shirt</span>
+            </div>
+            <span class="cart-price cart-column">$19.99</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn btn-danger" type="button">REMOVE</button>
+            </div>
+        </div>
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+                <img class="cart-item-image" src="Img/ahrjatni.jpeg" width="100" height="100">
+                <span class="cart-item-title">Album 3</span>
+            </div>
+            <span class="cart-price cart-column">$9.99</span>
+            <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="2">
+                <button class="btn btn-danger" type="button">REMOVE</button>
+            </div>
+        </div>
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$39.97</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+<footer class="main-footer">
+    <div class="container main-footer-container">
+        <h3 class="band-name">TAlAl MADAH </h3>
+        <ul class="nav footer-nav">
+            <li>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="img/YouTube Logo.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.spotify.com" target="_blank">
+                    <img src="img/Spotify Logo.png">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="img/Facebook Logo.png">
+                </a>
+            </li>
+        </ul>
+    </div>
 </footer>
 </body>
 
